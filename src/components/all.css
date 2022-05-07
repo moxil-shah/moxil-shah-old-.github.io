@@ -12,12 +12,18 @@
   --padding: 32px;
 }
 
+head {
+  text-align: center;
+}
+
 body {
   font-family: "HCo Gotham", sans-serif;
   background-color: var(--bg);
   color: var(--black);
   font-size: 18px;
   letter-spacing: -0.5px;
+  width: 100%;
+  margin: auto;
 }
 
 * {
@@ -286,7 +292,7 @@ header .mobile-logo {
 
 .home-3 {
   text-align: center;
-  padding: 160px var(--padding) 0;
+  padding: 120px var(--padding) 0;
 }
 
 .home-3 .home-image {
@@ -349,7 +355,6 @@ header .mobile-logo {
   background: #000;
 }
 #footer {
-  
   height: 105px;
   margin: auto;
 }
