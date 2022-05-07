@@ -1,0 +1,21 @@
+.icon-bar {
+  width: 300px;
+  margin: 0 auto;
+  background-color: #555; /* Dark-grey background */
+  overflow: auto; /* Overflow due to float */
+  border-radius: 50px;
+}
+
+.icon-bar a {
+  float: left; /* Float links side by side */
+  text-align: center; /* Center-align text */
+  width: 33.33%; /* Equal width (5 icons with 20% width each = 100%) */
+  padding: 5px 0; /* Some top and bottom padding */
+  transition: all 0.2s; /* Add transition for hover effects */
+  color: white; /* White text color */
+  font-size: 30px; /* Increased font size */
+}
+
+.icon-bar a:hover {
+  color: #ff7a1d;
+}
